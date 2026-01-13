@@ -48,7 +48,29 @@ DNA 유전자 검사를 통한 DB 제공, 전문 교육 및 자격증 발급, �
 
 ## 🔧 사용 방법
 
-### 1. 웹사이트 실행
+### 1. 로고/이미지 변경하기
+
+Hero 섹션 상단의 로고 이미지를 변경하려면:
+
+**index.html** 파일에서 다음 부분을 수정하세요:
+
+```html
+<!-- Logo/Image Section (이미지 URL을 변경하세요) -->
+<div class="hero-logo">
+    <img src="https://via.placeholder.com/200x80/667eea/ffffff?text=YOUR+LOGO" alt="Company Logo" class="logo-image">
+</div>
+```
+
+**src** 속성의 URL을 원하는 로고 이미지 URL로 변경:
+- 온라인 이미지: `https://example.com/your-logo.png`
+- 로컬 이미지: `./images/logo.png` (images 폴더 생성 필요)
+
+**권장 이미지 사양:**
+- 크기: 200-300px 너비
+- 형식: PNG (투명 배경 권장), JPG, SVG
+- 배경: 투명하거나 흰색
+
+### 2. 웹사이트 실행
 
 #### Python 서버 사용:
 ```bash
